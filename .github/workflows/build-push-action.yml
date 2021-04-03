@@ -17,4 +17,5 @@ jobs:
           repository: annetkoval/testdocker-imagespush
           context: .
           file: ./docker/php-fpm/Dockerfile
+          tags: annetkoval/testdocker-imagespush:v6
           tag_with_ref: true
