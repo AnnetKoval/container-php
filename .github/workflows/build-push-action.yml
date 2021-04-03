@@ -18,4 +18,5 @@ jobs:
           context: .
           file: ./docker/php-fpm/Dockerfile
           tags: annetkoval/testdocker-imagespush:v6
+          push: true
           tag_with_ref: true
