@@ -15,5 +15,6 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: annetkoval/testdocker-imagespush
-          context: docker/php-fpm
+          context: .
+          file: ./docker/php-fpm/Dockerfile
           tag_with_ref: true
