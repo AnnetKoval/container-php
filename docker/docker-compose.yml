@@ -2,8 +2,7 @@ version: '3'
 
 services: 
   php-fpm:
-    build:
-        context: ./php-fpm
+    image: annetkoval/testdocker-imagespush:v6
     volumes:
         - ../src:/var/www
     depends_on:
