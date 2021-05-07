@@ -23,7 +23,7 @@ jobs:
         with:
           registry: eu.gcr.io
           repository: eu.gcr.io/hazel-circlet-303916/testdocker-imagespush
-          context: .
+          context: ./docker/php-fpm/
           file: ./docker/php-fpm/Dockerfile
           tags: v6
           push: true
