@@ -18,6 +18,6 @@ jobs:
           repository: eu.gcr.io/hazel-circlet-303916/testdocker-imagespush
           context: .
           file: ./docker/php-fpm/Dockerfile
-          tags: v6
+          tags: eu.gcr.io/hazel-circlet-303916/testdocker-imagespush:v6
           push: true
           tag_with_ref: true
